@@ -14,7 +14,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="description" content="<?php kratos_description(); ?>" />
 		<meta name="keywords" content="<?php kratos_keywords();?>" />
-        <link rel='stylesheet'  href='http://39.106.218.20/wp-content/themes/kratos/css/google-prettify-monokai-theme-sub.css' type='text/css' />
+        <!-- <link rel='stylesheet'  href='http://39.106.218.20/wp-content/themes/kratos/css/google-prettify-monokai-theme-sub.css' type='text/css' /> -->
 
 		<?php wp_head(); ?>
 		<?php wp_print_scripts('jquery'); ?>
@@ -25,9 +25,9 @@
 	</head>
 	<?php flush(); ?>
 	<body data-spy="scroll" data-target=".scrollspy">
-    <script type='text/javascript' src='http://39.106.218.20/wp-content/themes/kratos/js/power.js' />
+    <!-- <script type='text/javascript' src='http://39.106.218.20/wp-content/themes/kratos/js/power.js' />
     <script type='text/javascript' src='http://39.106.218.20/wp-content/themes/kratos/js/clipboard-1.5.5.js' />
-    <script type='text/javascript' src='http://39.106.218.20/wp-content/themes/kratos/js/prettify.min.js' />
+    <script type='text/javascript' src='http://39.106.218.20/wp-content/themes/kratos/js/prettify.min.js' /> -->
 
 		<div id="kratos-wrapper">
 			<div id="kratos-page">
