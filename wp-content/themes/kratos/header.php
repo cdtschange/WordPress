@@ -24,9 +24,6 @@
 	</head>
 	<?php flush(); ?>
 	<body data-spy="scroll" data-target=".scrollspy">
-    <!-- <script type='text/javascript' src='http://39.106.218.20/wp-content/themes/kratos/js/power.js' />
-    <script type='text/javascript' src='http://39.106.218.20/wp-content/themes/kratos/js/clipboard-1.5.5.js' />
-    <script type='text/javascript' src='http://39.106.218.20/wp-content/themes/kratos/js/prettify.min.js' /> -->
 
 		<div id="kratos-wrapper">
 			<div id="kratos-page">

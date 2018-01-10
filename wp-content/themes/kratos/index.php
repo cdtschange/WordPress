@@ -16,6 +16,11 @@ if(is_category()){
 <div id="kratos-blog-post" style="background:<?php echo kratos_option('background_index_color'); ?>">
 	<div class="container">
 		<div class="row">
+			<aside id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm scrollspy">
+                <div id="sidebar">
+                    <?php dynamic_sidebar('sidebar_tool'); ?>
+                </div>
+            </aside>
 			<section id="main" class="col-md-8">
 			<?php
 				if(is_home()){
@@ -62,11 +67,6 @@ if(is_category()){
         		<?php kratos_pages(3);?>
 				<?php wp_reset_query(); ?>
 			</section>
-			<aside id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm scrollspy">
-                <div id="sidebar">
-                    <?php dynamic_sidebar('sidebar_tool'); ?>
-                </div>
-            </aside>
 		</div>
 	</div>
 </div>
