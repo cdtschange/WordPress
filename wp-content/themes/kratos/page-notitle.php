@@ -2,8 +2,9 @@
 /*
 Template Name: 无标题模版
 */
-$page_side_bar = kratos_option('page_side_bar');
-$page_side_bar = (empty($page_side_bar)) ? 'left_side' : $page_side_bar;
+// $page_side_bar = kratos_option('page_side_bar');
+// $page_side_bar = (empty($page_side_bar)) ? 'left_side' : $page_side_bar;
+$page_side_bar = 'left_side';
 get_header();
 get_header('banner'); ?>
 <div id="kratos-blog-post" style="background:<?php echo kratos_option('background_index_color'); ?>">
