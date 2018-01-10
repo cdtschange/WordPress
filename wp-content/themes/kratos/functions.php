@@ -62,6 +62,7 @@ function kratos_theme_scripts() {
         wp_enqueue_style( 'layer', $dir . '/css/layer.min.css', array(), KRATOS_VERSION);
         wp_enqueue_style( 'kratos', get_stylesheet_uri(), array(), KRATOS_VERSION);
         wp_enqueue_style( 'kratos-diy', $dir . '/css/kratos.diy.css', array(), KRATOS_VERSION);
+        wp_enqueue_style( 'google-prettify-theme', $dir . '/css/google-prettify-monokai-theme-sub.css', array(), '3.5.1');
         wp_enqueue_script( 'jquery', $dir . '/js/jquery.min.js' , array(), '2.1.4');
         wp_enqueue_script( 'easing', $dir . '/js/jquery.easing.min.js', array(), '1.3.0'); 
         wp_enqueue_script( 'qrcode', $dir . '/js/jquery.qrcode.min.js', array(), KRATOS_VERSION);
@@ -74,6 +75,9 @@ function kratos_theme_scripts() {
         wp_enqueue_script( 'superfish', $dir . '/js/superfish.js', array(), '1.0.0');
         wp_enqueue_script( 'kratos', $dir . '/js/kratos.js', array(),  KRATOS_VERSION);
         wp_enqueue_script( 'kratos-diy', $dir . '/js/kratos.diy.js', array(),  KRATOS_VERSION);
+        wp_enqueue_script( 'power', $dir . '/js/power.js', array(),  '1.5.16');
+        wp_enqueue_script( 'prettify-min', $dir . '/js/prettify.min.js', array(),  '1.5.16');
+        wp_enqueue_script( 'clipboard', $dir . '/js/clipboard-1.5.5.js', array(),  '1.5.5');
     }  
 }  
 add_action('wp_enqueue_scripts', 'kratos_theme_scripts');

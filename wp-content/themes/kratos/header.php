@@ -14,7 +14,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="description" content="<?php kratos_description(); ?>" />
 		<meta name="keywords" content="<?php kratos_keywords();?>" />
-        <!-- <link rel='stylesheet'  href='http://39.106.218.20/wp-content/themes/kratos/css/google-prettify-monokai-theme-sub.css' type='text/css' /> -->
 
 		<?php wp_head(); ?>
 		<?php wp_print_scripts('jquery'); ?>
