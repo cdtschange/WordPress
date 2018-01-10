@@ -26,7 +26,7 @@ get_header(); ?>
 		<div class="row">
 			<?php query_posts('showposts=3&cat=' . kratos_option('krsort_hm_bk1') . '')?> 
 			<?php while (have_posts()) : the_post(); ?>
-			<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 animate-box">
+			<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 animate-box">
 				<div class="kratos-post ">
 					<div class="kratos-post-image">
 						<div class="kratos-overlay"></div>
@@ -44,7 +44,7 @@ get_header(); ?>
 			<?php endwhile;?>
 		</div>
 		<div class="row">
-			<div class="col-md-4 col-md-offset-4 text-center animate-box">
+			<div class="col-md-3 col-md-offset-4 text-center animate-box">
 				<a href="<?php echo kratos_option('krsort_hm_tx5'); ?>" class="btn btn-primary view-more-1">查看更多</a>
 			</div>
 		</div>
@@ -53,7 +53,7 @@ get_header(); ?>
 <div id="kratos-blog" class="kratos-page-gray">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+			<div class="col-md-9 col-md-offset-2 text-center heading-section animate-box">
 				<h3><?php echo kratos_option('krsort_hm_tx6'); ?></h3>
 				<p><?php echo kratos_option('krsort_hm_tx7'); ?></p>
 			</div>
@@ -63,7 +63,7 @@ get_header(); ?>
 		<div class="row">
 			<?php query_posts('showposts=3&cat=' . kratos_option('krsort_hm_bk2') . '')?> 
 			<?php while (have_posts()) : the_post(); ?>
-			<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 animate-box">
+			<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 animate-box">
 				<div class="kratos-post ">
 					<div class="kratos-post-image">
 						<div class="kratos-overlay"></div>
@@ -81,7 +81,7 @@ get_header(); ?>
 			<?php endwhile;?>
 		</div>
 		<div class="row">
-			<div class="col-md-4 col-md-offset-4 text-center animate-box">
+			<div class="col-md-3 col-md-offset-4 text-center animate-box">
 				<a href="<?php echo kratos_option('krsort_hm_tx8'); ?>" class="btn btn-primary view-more-1">查看更多</a>
 			</div>
 		</div>
@@ -90,7 +90,7 @@ get_header(); ?>
 <div id="kratos-blog" class="kratos-page-default">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+			<div class="col-md-9 col-md-offset-2 text-center heading-section animate-box">
 				<h3><?php echo kratos_option('krsort_hm_tx9'); ?></h3>
 				<p><?php echo kratos_option('krsort_hm_tx10'); ?></p>
 			</div>
@@ -100,7 +100,7 @@ get_header(); ?>
 		<div class="row">
 			<?php query_posts('showposts=3&cat=' . kratos_option('krsort_hm_bk3') . '')?> 
 			<?php while (have_posts()) : the_post(); ?>
-			<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 animate-box">
+			<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 animate-box">
 				<div class="kratos-post ">
 					<div class="kratos-post-image">
 						<div class="kratos-overlay"></div>
@@ -118,7 +118,7 @@ get_header(); ?>
 			<?php endwhile;?>
 		</div>
 		<div class="row">
-			<div class="col-md-4 col-md-offset-4 text-center animate-box">
+			<div class="col-md-3 col-md-offset-4 text-center animate-box">
 				<a href="<?php echo kratos_option('krsort_hm_tx11'); ?>" class="btn btn-primary view-more-1">查看更多</a>
 			</div>
 		</div>
