@@ -9,6 +9,8 @@
 // $sidebar = kratos_option('side_bar');
 // $sidebar = (empty($sidebar)) ? 'right_side' : $sidebar;
 $sidebar = 'left_side';
+$ad_show_1 = false;
+$ad_show_2 = false;
 get_header();
 get_header('banner'); ?>
 <div id="kratos-blog-post" style="background:<?php echo kratos_option('background_index_color'); ?>">
