@@ -37,6 +37,10 @@ get_header('banner'); ?>
 							</div>
 						</header>
 						<div class="kratos-post-content">
+						<?php if ( kratos_option('ad_show_1') ): ?>
+							<a href="<?php echo kratos_option('ad_link_1'); ?>"><img src="<?php echo kratos_option('ad_img_1')?>"></a>
+	                    <?php endif ?>
+                        <?php the_content(); ?>
 						</div>
 						<footer class="kratos-entry-footer clearfix">
 							<div class="post-like-donate text-center clearfix" id="post-like-donate">
