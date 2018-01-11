@@ -968,12 +968,12 @@ article a {
 	text-decoration: none!important
 }
 
-#kratos-photos .kratos-photos-item .kratos-text h2 {
+/* #kratos-photos .kratos-photos-item .kratos-text h2 {
 	font-size: 18px;
 	font-weight: 700;
 	margin: 0 0 10px 0;
 	color: #484c50
-}
+} */
 
 #kratos-photos .kratos-photos-item .kratos-text span {
 	color: #b3b3b3;
