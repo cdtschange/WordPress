@@ -1,0 +1,222 @@
+.kratos-post-content {
+	word-break: break-word;
+}
+
+.kratos-post-content p,
+.kratos-post-content pre,
+.kratos-post-content blockquote {
+	margin: 0 0 15px;
+}
+
+.kratos-post-content h2 {
+	border-left: 10px solid #3498db;
+	padding: 10px 0 10px 14px;
+	background-color: #f7f7f7;
+}
+.kratos-post-content h3 {
+	border-left: 8px solid #3498db;
+	padding: 10px 0 10px 14px;
+	background-color: #f7f7f7;
+}
+.kratos-post-content h4 {
+	border-left: 6px solid #3498db;
+	padding: 8px 0 8px 12px;
+	background-color: #f7f7f7;
+}
+.kratos-post-content h5 {
+	border-left: 4px solid #3498db;
+	padding: 6px 0 6px 10px;
+	background-color: #f7f7f7;
+}
+.kratos-post-content h6 {
+	border-left: 4px solid #3498db;
+	padding: 4px 0 4px 8px;
+	background-color: #f7f7f7;
+}
+
+.kratos-post-content a {
+	color: #2080df;
+}
+.kratos-post-content p {}
+.kratos-post-content strong {
+	font-weight: bold;
+}
+
+.kratos-post-content ul {
+	margin: 0 0 15px 20px;
+}
+.kratos-post-content li {
+	list-style: disc;
+}
+.kratos-post-content ol li {
+	list-style: decimal;
+}
+
+.kratos-post-content blockquote {
+	border-left-width: 10px;
+	background-color: rgba(102,128,153,0.05);
+	border-left: 5px solid rgba(102,128,153,0.075);
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 15px 20px;
+}
+.kratos-post-content blockquote p {
+	margin-bottom: 15px;
+	line-height: 1.428571429;
+}
+
+.kratos-post-content code {
+    padding: 4px 6px;
+	vertical-align: middle;
+    color: #333;
+	background-color: #fee9cc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.kratos-post-content pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.kratos-post-content pre code {
+    background: none;
+    color: #151515;
+    padding: 0;
+}
+
+.kratos-post-content table {
+	/*table-layout: fixed;*/
+	margin: 0 auto;
+	border-color: #ddd;
+	background-color: #FFFFFF;
+}
+.kratos-post-content table[border="1"] th, .post table[border="1"] td {
+	padding: 8px;
+	border: 1px solid #ddd;
+}
+.kratos-post-content table th {
+	font-weight: bold;
+}
+.kratos-post-content table[border="1"] tbody tr:nth-child(2n){
+	background: #fafafa;
+}
+.kratos-post-content table[border="1"] tbody tr:hover{
+	background: #f0f0f0;
+}
+.kratos-post-content table[border="1"] tbody td[rowspan] {
+    vertical-align: top;
+}
+
+.kratos-post-content img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	/*padding: 4px;*/
+	/*border: 1px solid #eee;*/
+	box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+.kratos-post-content .img-caption {
+	display: block;
+	margin-top: 6px;
+	text-align: center;
+	font-size: 15px;
+	color: #8D8D8D;
+}
+
+.kratos-post-content .more-link {
+	display: inline-block;
+	padding: 4px 10px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #3498db;
+}
+
+.kratos-post-content .callout {
+	margin: 20px 0 20px 20px;
+	padding: 14px 12px 0px 14px;
+	border: 1px solid #eee;
+	border-left-width: 8px;
+	border-radius: 7px 0 0 7px;
+	background: #fcfcfc;
+}
+.kratos-post-content .callout-title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+}
+/* info */
+.kratos-post-content .callout-info {
+	border-left-color: #BDC3C7;	
+}
+.kratos-post-content .callout-info .callout-title {
+	color: #525252;
+}
+/* warning */
+.kratos-post-content .callout-warning {
+	border-left-color: #c11100;	
+}
+.kratos-post-content .callout-warning .callout-title {
+	color: #d9534f;
+}
+/* note/tips */
+.kratos-post-content .callout-tips,
+.kratos-post-content .callout-note {
+	border-left-color: #47ad09;	
+}
+.kratos-post-content .callout-tips .callout-title,
+.kratos-post-content .callout-note .callout-title {
+	color: #080;
+}
+/* split */
+.kratos-post-content .callout-split {
+	margin: 0 0 15px;
+	padding: 0;
+	border: 0;
+	background: none;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* è§†é¢‘ã€éŸ³ä¹ */
+.kratos-post-content .video-youku embed {
+	width: 100%!important;
+	height: 520px!important;
+}
+.kratos-post-content .music-xiami {
+	text-align: center;
+	padding-bottom: 10px;
+}
+/* å†…å®¹æŠ˜å  */
+.kratos-post-content .fold-link {
+	padding: 8px;
+	text-align: center;
+	display: block;
+	background: #eee;
+	font-weight: bold;
+	color: #2080df;
+	cursor: pointer;
+}
+.kratos-post-content .fold-text {
+	display: none;
+	border: 1px dashed #ddd;
+	border-top: none;
+	padding: 8px 12px;
+	margin-bottom: 12px;
+}
+/* æµ®åŠ¨ */
+.float-left {
+	float: left;
+	width: 50%;
+	margin: 6px 16px 6px 0;
+}
