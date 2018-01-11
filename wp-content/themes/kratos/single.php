@@ -9,8 +9,6 @@
 // $sidebar = kratos_option('side_bar');
 // $sidebar = (empty($sidebar)) ? 'right_side' : $sidebar;
 $sidebar = 'left_side';
-$ad_show_1 = false;
-$ad_show_2 = false;
 get_header();
 get_header('banner'); ?>
 <div id="kratos-blog-post" style="background:<?php echo kratos_option('background_index_color'); ?>">
@@ -39,13 +37,6 @@ get_header('banner'); ?>
 							</div>
 						</header>
 						<div class="kratos-post-content">
-						<?php if ( kratos_option('ad_show_1') ): ?>
-							<a href="<?php echo kratos_option('ad_link_1'); ?>"><img src="<?php echo kratos_option('ad_img_1')?>"></a>
-	                    <?php endif ?>
-                        <?php the_content(); ?>
-						<?php if ( kratos_option('ad_show_2') ): ?>
-							<a href="<?php echo kratos_option('ad_link_2'); ?>"><img src="<?php echo kratos_option('ad_img_2')?>"></a>
-	                    <?php endif ?>
 						</div>
 						<footer class="kratos-entry-footer clearfix">
 							<div class="post-like-donate text-center clearfix" id="post-like-donate">
