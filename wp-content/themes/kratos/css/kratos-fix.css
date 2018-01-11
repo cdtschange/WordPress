@@ -1,3 +1,22 @@
+.kratos-entry-title {
+	margin: 0 0 20px;
+	padding: 10px 0 10px 12px;
+	font-weight: bold;
+	border-left: 16px solid #d9534f;
+	background-color: #f9f9f9;
+}
+.kratos-entry-title a {
+	color: #222;
+	transition: color ease 0.3s;
+	text-decoration: none;
+}
+.kratos-entry-title a:visited {
+	color: #4a4a4a;
+}
+.kratos-entry-title a:hover {
+	color: #57A3E8;
+}
+
 .kratos-post-content {
 	word-break: break-word;
 }
@@ -9,7 +28,7 @@
 }
 
 .kratos-post-content h2 {
-	border-left: 10px solid #3498db;
+	border-left: 10px solid #e7732f;
 	padding: 10px 0 10px 14px;
 	background-color: #f7f7f7;
 }
@@ -19,17 +38,17 @@
 	background-color: #f7f7f7;
 }
 .kratos-post-content h4 {
-	border-left: 6px solid #3498db;
+	border-left: 6px solid #0a7744;
 	padding: 8px 0 8px 12px;
 	background-color: #f7f7f7;
 }
 .kratos-post-content h5 {
-	border-left: 4px solid #3498db;
+	border-left: 4px solid #797a7a;
 	padding: 6px 0 6px 10px;
 	background-color: #f7f7f7;
 }
 .kratos-post-content h6 {
-	border-left: 4px solid #3498db;
+	border-left: 4px solid #7c34db;
 	padding: 4px 0 4px 8px;
 	background-color: #f7f7f7;
 }
