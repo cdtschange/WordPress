@@ -61,7 +61,7 @@ function kratos_theme_scripts() {
         wp_enqueue_style( 'superfish', $dir . '/css/superfish.min.css', array(), 'r7');
         wp_enqueue_style( 'layer', $dir . '/css/layer.min.css', array(), KRATOS_VERSION);
         wp_enqueue_style( 'kratos', get_stylesheet_uri(), array(), KRATOS_VERSION);
-        wp_enqueue_style( 'kratos-content', $dir . '/css/kratos-post-content.css', array(), KRATOS_VERSION);
+        wp_enqueue_style( 'kratos-fix', $dir . '/css/kratos-fix.css', array(), KRATOS_VERSION);
         wp_enqueue_style( 'kratos-diy', $dir . '/css/kratos.diy.css', array(), KRATOS_VERSION);
         wp_enqueue_style( 'google-prettify-theme', $dir . '/css/google-prettify-monokai-theme-sub.css', array(), '3.5.1');
         wp_enqueue_script( 'jquery', $dir . '/js/jquery.min.js' , array(), '2.1.4');
