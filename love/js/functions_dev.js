@@ -11,15 +11,19 @@ $(function () {
     $garden = $("#garden");
     gardenCanvas = $garden[0];
 	gardenCanvas.width = $("#loveHeart").width();
-    gardenCanvas.height = $("#loveHeart").height()
+    gardenCanvas.height = $("#loveHeart").height();
     gardenCtx = gardenCanvas.getContext("2d");
     gardenCtx.globalCompositeOperation = "lighter";
-    garden = new Garden(gardenCtx, gardenCanvas);
+	garden = new Garden(gardenCtx, gardenCanvas);
 	
-	$("#content").css("width", $loveHeart.width() + $("#code").width());
-	$("#content").css("height", Math.max($loveHeart.height(), $("#code").height()));
-	$("#content").css("margin-top", Math.max(($window.height() - $("#content").height()) / 2, 10));
-	$("#content").css("margin-left", Math.max(($window.width() - $("#content").width()) / 2, 10));
+
+    $words = $("#words");
+	words.width = $("#loveHeart").width();
+    words.height = $("#loveHeart").height();
+	
+	// $("#content").css("width", $loveHeart.width() + $("#code").width());
+	// $("#content").css("height", Math.max($loveHeart.height(), $("#code").height()));
+	// $("#content").css("margin", 50);
 
     // renderLoop
     setInterval(function () {
@@ -135,11 +139,11 @@ function showMessages() {
 function adjustWordsPosition() {
 	$('#words').css("position", "absolute");
 	$('#words').css("top", $("#garden").position().top + 195);
-	$('#words').css("left", $("#garden").position().left + 70);
+	$('#words').css("left", ($("#garden").width() - $('#words').width()) / 2 + 30);
 }
 
 function adjustCodePosition() {
-	$('#code').css("margin-top", ($("#garden").height() - $("#code").height()) / 2);
+	// $('#code').css("margin-top", ($("#garden").height() - $("#code").height()) / 2);
 }
 
 function showLoveU() {
