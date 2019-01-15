@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Our Love Story</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('digital-7_mono.ttf') format("truetype");
+		}
+	</style>
+	<link href="css/default.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/garden_dev.js"></script>
+    <script type="text/javascript" src="js/functions_dev.js"></script>
+</head>
+
+<body>
+	<div id="mainDiv">
+		<div id="content">
+			<div id="code">
+				<span class="keyword">let</span> i = Boy(<span class="string">"Mao Wei"</span>);<br />
+				<span class="keyword">let</span> u = Girl(<span class="string">"Chen Xialing"</span>);<br />
+                <span class="comments">// Sep 1, 2005, I met you. </span><br />
+				i.meet(u);<br />
+				<span class="comments">// Aug 31, 2008, I told you I love you. </span><br />
+				<span class="keyword">let</span> request = i.love(u);<br />
+				<span class="comments">// Luckily, you accepted and became my girlfriend.</span><br />
+				u.accepted(request);<br />
+				<span class="comments">// Jul 1, 2009, we seperated in two cities.</span><br />
+				i.miss(u);<br />
+				<span class="comments">// Apr 12, 2012, we lived together.</span><br />
+				i.live(with: u);<br />
+				<span class="comments">// Aug 5, 2013, we got married.</span><br />
+				i.marry(u);<br />
+				<span class="comments">// May 6, 2014, our baby was born.</span><br />
+				<span class="keyword">let</span> baby = Girl(<span class="string">"Mao Shiran"</span>);<br />
+				
+				[i, u, baby].liveHappily();<br />
+			</div>
+			<div id="loveHeart">
+				<canvas id="garden"></canvas>
+				<div id="words">
+					<div id="messages">
+						We have loved each other for
+						<div id="elapseClock"></div>
+					</div>
+					<div id="loveu">
+						Love u forever and ever.<br/>
+						<div class="signature">- 山天大畜</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var offsetX = $("#loveHeart").width() / 2;
+		var offsetY = $("#loveHeart").height() / 2 - 55;
+		var together = new Date();
+		together.setFullYear(2008, 8, 31);
+		together.setHours(20);
+		together.setMinutes(0);
+		together.setSeconds(0);
+		together.setMilliseconds(0);
+		
+		if (!document.createElement('canvas').getContext) {
+			var msg = document.createElement("div");
+			msg.id = "errorMsg";
+			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+			document.body.appendChild(msg);
+			$("#code").css("display", "none")
+			$("#copyright").css("position", "absolute");
+			$("#copyright").css("bottom", "10px");
+		    document.execCommand("stop");
+		} else {
+			setTimeout(function () {
+				startHeartAnimation();
+			}, 5000);
+			timeElapse(together);
+			setInterval(function () {
+				timeElapse(together);
+			}, 500);
+			adjustCodePosition();
+			$("#code").typewriter();
+		}
+	</script>
+</body>
+</html>
